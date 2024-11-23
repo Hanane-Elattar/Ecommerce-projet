@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+
+}
+
+.page-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 500px;
+    max-height: 900px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    
+}
+
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.button-container button {
+    flex: 1;
+    padding: 0.5rem;
+    background: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.button-container button.active,
+.button-container button:hover {
+    color: #000000;
+    border-bottom: 2px solid #000000;
+}
+
+
+
+
+.form-container {
+    width: 100%;
+    max-width: 450px;
+    margin: 10;
+    padding: 20px;
+    text-align: center;
+}
+
+.form-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.form-container label {
+    display: block;
+    text-align: left; 
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #333;
+    transition: border-color 0.3s;
+}
+
+.form-container input:focus {
+    border-color: #000000;
+    outline: none;
+}
+
+
+.form-container button {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 1rem;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-container button:hover {
+    background-color: #161717;
+}
+
+
+.error-message,
+.success-message {
+    width: 79%;
+    margin-left: 17px;
+    margin-top: 1rem;
+    padding: 0.75rem;
+    font-size: 0.9rem;
+    border-radius: 4px;
+}
+
+.error-message {
+    background-color: #ffe5e5;
+    color: #d9534f;
+}
+
+.success-message {
+    background-color: #e5f7e5;
+    color: #5cb85c;
+}
+
+
+

@@ -1,0 +1,173 @@
+/* Tableau de bord */
+.dashboard {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  max-width: 1800px;
+  margin: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard h1 {
+  text-align: center;
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+/* Boutons */
+.btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-add {
+  background-color: #4CAF50;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.btn-add:hover {
+  background-color: #45a049;
+  color: white;
+
+}
+
+.btn-edit {
+  background-color: #000000;
+  color: white;
+}
+
+.btn-edit:hover {
+  background-color: #141414;
+  color: #ffffff;
+}
+
+.btn-delete {
+  background-color: #F44336;
+  color: white;
+}
+
+.btn-delete:hover {
+  background-color: #d32f2f;
+  color: white;
+
+}
+
+.btn-save {
+  background-color: #8bc34a;
+  color: white;
+}
+
+.btn-save:hover {
+  background-color: #7cb342;
+  color: white;
+
+}
+
+/* Table */
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.product-table th,
+.product-table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.product-table th {
+  background-color: #f4f4f4;
+  font-size: 1.1rem;
+}
+
+.product-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Inputs et images */
+.product-img {
+  max-width: 80px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.text-input,
+input[type="number"],
+input[type="file"] {
+  padding: 8px 12px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input:focus {
+  border-color: #4CAF50;
+  outline: none;
+  background-color: #f9f9f9;
+}
+
+input[type="file"] {
+  padding: 0;
+}
+
+input[type="file"]:focus {
+  border-color: transparent;
+}
+
+/* Centrages */
+.product-table td {
+  vertical-align: middle;
+}
+
+.product-table img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.dashboard {
+  margin-left: 260px;
+  padding: 20px;
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-table th, .product-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.product-img {
+  max-width: 50px;
+  max-height: 50px;
+  object-fit: cover;
+}
+
+.btn {
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+}
+.btn-add{
+  margin: 5px;
+  align-items: end;
+}
+
+.btn-edit, .btn-save, .btn-delete {
+  margin: 5px;
+}
+

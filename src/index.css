@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* للغة العربية */
+body[dir='rtl'] {
+  direction: rtl;
+  text-align: right;
+}
+
+/* للغة الإنجليزية */
+body[dir='ltr'] {
+  direction: ltr;
+  text-align: left;
+}
+
